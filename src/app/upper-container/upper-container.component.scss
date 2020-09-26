@@ -1,0 +1,26 @@
+@import '../../styles/_variables';
+
+$margin: 20px;
+$border-size: 4px;
+
+.upper-container {
+  height: $upper-height;
+  width: calc(100% - #{$margin * 2} - #{$border-size * 2});
+  
+  margin: $margin;
+  border: $border-size solid var(--dark);
+
+  .header {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-top: -22px;
+    width: 100%;
+
+    span {
+      background-color: $machine-color;
+      display: inline-block;
+      width: 34%;
+    }
+  }
+}
