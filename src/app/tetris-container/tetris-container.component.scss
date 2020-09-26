@@ -1,11 +1,11 @@
 @import '../../styles/_variables';
 
 .tetris-container {
-  margin: 0 auto;
+  // margin: 0 auto;
   width: $machine-width;
   height: 100vh;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   box-shadow: inset 0 0 10px #fff;
   border-radius: 8px;
